@@ -19,8 +19,6 @@ import lombok.RequiredArgsConstructor;
 public class BeerServiceImpl implements BeerService {
 	
 	private final BeerRepository beerRepository;
-	
-	@Autowired
 	private final BeerMapper beerMapper;
 
 	@Override
